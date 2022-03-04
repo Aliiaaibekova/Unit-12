@@ -1,0 +1,74 @@
+.container{
+    width:  900px;
+    margin: 40px auto;
+  }
+  
+  h1{
+    color: #04876d;
+    font-size: 42px;
+  }
+  
+  form{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solidrgb#04876d;
+  }
+  
+  form label{
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 600;
+  color: #04876d;}
+  
+  
+  form input{
+    height: 35px;
+    font-size: 20px;
+    margin-bottom: 30px;
+  
+  }
+  
+  form button{
+    background-color: #048760;
+    height: 45px;
+    margin-bottom: 25px;
+    cursor: pointer;
+  }
+  
+  h3{
+    color: #04876d;
+  }
+  
+  
+  .list_title{
+    display: flex;
+    border-bottom: 2px solid #04876d ;
+  }
+  
+  .list_title h3{
+  width: 33%;
+  }
+  
+  table td{
+    width: 33%;
+    font-size: 20px;
+    border-bottom: 2px solid #04876d;
+  }
+  
+  td .delete{
+    color: red;
+    font-weight: 900;
+  }
+  
+  .succes, .error{
+    color: rgb(252, 255, 74);
+    padding: 8px;
+    margin: 15px 0;
+  }
+  .succes{
+    background-color: green;
+  }
+  .error{
+    background-color: red;
+  }
